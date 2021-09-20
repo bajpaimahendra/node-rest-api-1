@@ -1,14 +1,17 @@
 ### Project setup
 
-	--- only node is inside docker container, need to  install mongodb on host machine
+	--- Only node is inside docker container, need to  install mongodb on host machine
+	-- Note : npm install <moduleName> ( always inside container )
 
 	git clone https://github.com/bajpaimahendra/node-rest-api-1.git
+
 	cd node-rest-api-1.git
+
 	docker-compose up / docker-compose up --build
 
-	### List containers
+### List containers
 
-		docker ps OR docker container ls
+	docker ps OR docker container ls
 
 ### Entering Docker containers
 
@@ -20,8 +23,6 @@
 
 ### Exiting from Container
 	exit
-
-### Note : npm install <moduleName> ( always inside container )
 
 ### Remove All Docker Containers
 
