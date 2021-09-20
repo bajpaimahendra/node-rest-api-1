@@ -9,9 +9,6 @@
 
 	docker-compose up / docker-compose up --build
 
-### List containers
-
-	docker ps OR docker container ls
 
 ### Entering Docker containers
 
