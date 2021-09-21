@@ -7,7 +7,11 @@
 
 	cd node-rest-api-1.git
 
-	docker-compose up / docker-compose up --build
+	docker-compose up --build
+
+	docker-compose up
+
+	docker-compose up -d ( run background (detached) )
 
 
 ### Entering Docker containers
