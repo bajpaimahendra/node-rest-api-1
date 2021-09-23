@@ -6,7 +6,7 @@ const app = express();
 
 console.log('jmd...');
 
-/* load Application level middleware */
+/* load Application level middleware2222222 */
 //---make them available in the req.body of the request’s route handling middleware.
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
